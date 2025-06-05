@@ -11,21 +11,22 @@ body {
     background: #fff;
     border-radius: 18px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.07);
-    padding: 32px 24px 24px 24px;
+    padding: 16px 24px 24px 24px; /* Reduce el padding superior de la tarjeta */
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 18px;
+    margin-bottom: 8px; /* antes: 18px o más */
 }
 
 .logo {
     width: 200px;   /* antes: 80px */
     height: 200px;  /* antes: 80px */
     object-fit: contain;
-    margin-bottom: 8px;
+    margin-bottom: 4px; /* antes: 8px o más */
+    margin-top: 0;      /* elimina cualquier margen superior extra */
 }
 
 header h1 {

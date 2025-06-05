@@ -22,8 +22,8 @@ header {
 }
 
 .logo {
-    width: 140px;   /* antes: 80px */
-    height: 140px;  /* antes: 80px */
+    width: 200px;   /* antes: 80px */
+    height: 200px;  /* antes: 80px */
     object-fit: contain;
     margin-bottom: 8px;
 }
